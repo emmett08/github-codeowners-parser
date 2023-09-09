@@ -1,14 +1,15 @@
 {
   "name": "github-codeowners-parser",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "Antlr4 generated CODEOWNERS parser",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "co:antlr4ts": "antlr4ts -o codeowners -visitor CODEOWNERSLexer.g4 CODEOWNERSParser.g4",
-    "co:build": "tsc"
+    "co:build": "npx tsc",
+    "co:declarations": "npx tsc --declaration"
   },
-  "types": "github-codeowners-parser.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emmett08/github-codeowners-parser.git"
