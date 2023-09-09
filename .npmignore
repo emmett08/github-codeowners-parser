@@ -1,0 +1,14 @@
+CODEOWNERSLexer.g4
+CODEOWNERSParser.g4
+
+make.sh
+
+node_modules/
+
+package-lock.json
+*.interp
+*.tokens
+
+test/
+spec/
+__tests__/
