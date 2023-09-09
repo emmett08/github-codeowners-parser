@@ -3,7 +3,7 @@ import { AddLineVisitor } from "./AddLineVisitor";
 import { CODEOWNERSLexer } from "./parser/CODEOWNERSLexer";
 import { CODEOWNERSParser } from "./parser/CODEOWNERSParser";
 
-export const addLineToContent = (input: string, newLine: string): string => {
+export const AddLineToContent = (input: string, newLine: string): string => {
     const chars = CharStreams.fromString(input);
     const lexer = new CODEOWNERSLexer(chars);
     const tokens = new CommonTokenStream(lexer);

@@ -12,3 +12,6 @@ package-lock.json
 test/
 spec/
 __tests__/
+
+*.log
+*.tsbuildinfo
